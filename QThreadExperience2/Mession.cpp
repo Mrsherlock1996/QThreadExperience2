@@ -3,6 +3,7 @@
 Mession::Mession(QObject *parent)
 	:QObject(parent)
 {
+	_subM1 = new SubMession;
 
 }
 Mession::~Mession()
@@ -11,10 +12,12 @@ Mession::~Mession()
 
 void Mession::printInfo()
 {
-	while (_count<10)
+	_subM1->_label = _labelM;
+	while (_count<3)
 	{
-		qDebug() << "version: " << _version << endl;
 		qDebug() << "Mession current thread" << QThread::currentThread() << endl;
+		//_subM1->printName();
 		_count++;
 	}
+	_subM1->printName();
 }

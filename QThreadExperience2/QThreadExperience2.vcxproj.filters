@@ -46,12 +46,24 @@
     <ClCompile Include="StartMession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SubMession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertMatQImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="Mession.h">
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="StartMession.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SubMession.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ConvertMatQImage.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

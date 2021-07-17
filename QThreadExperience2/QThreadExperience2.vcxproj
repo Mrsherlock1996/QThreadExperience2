@@ -86,8 +86,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ConvertMatQImage.cpp" />
     <ClCompile Include="Mession.cpp" />
     <ClCompile Include="StartMession.cpp" />
+    <ClCompile Include="SubMession.cpp" />
     <QtRcc Include="MainWindow.qrc" />
     <QtUic Include="MainWindow.ui" />
     <QtMoc Include="MainWindow.h" />
@@ -99,6 +101,12 @@
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="StartMession.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="SubMession.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="ConvertMatQImage.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
